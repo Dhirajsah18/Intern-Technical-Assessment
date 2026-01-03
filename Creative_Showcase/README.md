@@ -108,7 +108,7 @@ Creative_Showcase/
 
 1. Clone the repository
 
-git clone https://github.com/Dhirajsah18/Creative-Showcase
+git clone https://github.com/Dhirajsah18/Creative-Showcase.git
 cd creative-showcase/server
 
 2. Install backend dependencies
