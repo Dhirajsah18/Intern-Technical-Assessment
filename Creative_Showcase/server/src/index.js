@@ -1,4 +1,5 @@
 import dotenv from "dotenv";
+import path from "path";
 
 // Load env
 dotenv.config();
@@ -25,6 +26,8 @@ app.use(cors({
   ],
   credentials: true
 }));
+
+app.use(express.static(path.join(process.cwd(), "public")));
 
 app.use(express.json({ limit: "20mb" }));
 app.use(express.urlencoded({ extended: true, limit: "20mb" }));
