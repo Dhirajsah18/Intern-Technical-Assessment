@@ -22,7 +22,7 @@ connectDB();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://your-vercel-app.vercel.app"
+    "https://intern-technical-assessment-git-main-dhirajsah18s-projects.vercel.app"
   ],
   credentials: true
 }));
