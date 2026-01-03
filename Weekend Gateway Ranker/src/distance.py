@@ -8,12 +8,13 @@ def haversine(lat1, lon1, lat2, lon2):
     dlat = lat2 - lat1
     dlon = lon2 - lon1
 
+    # Apply Haversine formula
     a = math.sin(dlat / 2) ** 2 + \
         math.cos(lat1) * math.cos(lat2) * math.sin(dlon / 2) ** 2
 
     return 2 * R * math.asin(math.sqrt(a))
 
-
+# Calculate distance between two cities using their coordinates.
 def calculate_city_distance(source_city, destination_city):
     if source_city not in CITY_COORDS or destination_city not in CITY_COORDS:
         return None
