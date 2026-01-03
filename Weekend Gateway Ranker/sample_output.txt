@@ -1,0 +1,16 @@
+Weekend Gateway Recommendation Engine
+--------------------------------------------------
+Enter source city: delhi
+Enter max travel distance (km) [e.g. 300 / 500 / 800]: 800
+
+============================================================
+Top Weekend Destinations from Delhi (within 800 km)
+============================================================
+
+State           City        Place Name                         Distance (km)  Rating  Reviews(lakh)  Visit Hours  Entry Fee (INR)  Airport Nearby  Weekly Off  Best Time   Score
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+Uttar Pradesh   Agra        Taj Mahal                           178.06         4.6     2.25            2.0          50               Yes              Friday      Morning     0.8669
+Rajasthan       Jaipur      Amber Fort                          235.29         4.6     1.50            2.0          100              Yes              None        All         0.7633
+Punjab          Amritsar    Golden Temple (Harmandir Sahib)     404.05         4.9     1.90            1.5          0                Yes              None        All         0.7085
+Uttarakhand     Mussoorie   Kempty Falls                        221.36         4.2     0.55            1.5          15               Yes              None        Morning     0.6633
+Uttarakhand     Rishikesh   Laxman Jhula                         193.27         4.4     0.03            1.0          0                Yes              None        Morning     0.6475
