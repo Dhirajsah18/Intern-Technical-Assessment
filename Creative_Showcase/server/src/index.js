@@ -19,13 +19,28 @@ const app = express();
 connectDB();
 
 // Middleware
-app.use(cors({
-  origin: [
-    "http://localhost:5173",
-    "https://intern-technical-assessment-git-main-dhirajsah18s-projects.vercel.app"
-  ],
-  credentials: true
-}));
+app.use(
+  cors({
+    origin: (origin, callback) => {
+      // allow tools like Postman
+      if (!origin) return callback(null, true);
+
+      // allow all Vercel deployments
+      if (origin.endsWith(".vercel.app")) {
+        return callback(null, true);
+      }
+
+      // allow local development
+      if (origin === "http://localhost:5173") {
+        return callback(null, true);
+      }
+
+      return callback(new Error("Not allowed by CORS"));
+    },
+    credentials: true,
+  })
+);
+
 
 app.use(express.static(path.join(process.cwd(), "public")));
 
