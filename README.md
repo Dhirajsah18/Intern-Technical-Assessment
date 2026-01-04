@@ -25,16 +25,17 @@ A utility app that helps rank weekend getaway destinations based on certain crit
 ---
 
 ## **Repository Structure**
+```
 
 ├── creative-showcase/          # Full Stack Web Application
 ├── smart-todo-api/             # REST Backend API
 ├── weekend-getaway-ranker/     # Data Engineering Project
 ├── spotify-lyric-search/       # Machine Learning Project
 └── README.md                   # Main repository overview
-
+```
 ---
 
 ## Author
 
-**Dhiraj Kumar Sah
+Dhiraj Kumar Sah
 ---
