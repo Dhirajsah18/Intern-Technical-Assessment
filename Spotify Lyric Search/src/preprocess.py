@@ -1,9 +1,7 @@
 import re
 import string
 
-"""
-Cleans lyrics text so ML can work properly
-"""
+# Cleans lyrics text
 def clean_text(text: str) -> str:
     if not isinstance(text, str):
         return ""

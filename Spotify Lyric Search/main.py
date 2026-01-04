@@ -5,7 +5,7 @@ from src.predict import predict_song
 DATA_PATH = "data/spotify_lyrics.csv"
 
 
-"""Load and prepare the lyrics dataset."""
+# Load and prepare the lyrics dataset.
 def load_data(path):
     df = pd.read_csv(path)
 
@@ -18,10 +18,7 @@ def load_data(path):
 
     return df[["track_name", "artist_name", "lyrics"]].dropna()
 
-"""
-    Read lyric snippet.
-    User can enter multiple lines.
-"""
+# Read lyric snippet.
 def get_user_snippet():
 
     lines = []
@@ -34,7 +31,7 @@ def get_user_snippet():
     return " ".join(lines).strip()
 
 
-"""print prediction results."""
+#print prediction results.
 def display_results(results):
     print("\nPrediction Results:")
     for i, r in enumerate(results, start=1):

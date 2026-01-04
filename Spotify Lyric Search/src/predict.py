@@ -5,9 +5,7 @@ def predict_song(model, lyric_snippet, top_k=3):
     cleaned = clean_text(lyric_snippet)
     snippet_words = set(cleaned.split())
 
-    # -----------------------------
     # TF-IDF similarity scores
-    # -----------------------------
     vector = model.vectorizer.transform([cleaned])
     tfidf_scores = cosine_similarity(vector, model.tfidf_matrix)[0]
 
@@ -22,12 +20,9 @@ def predict_song(model, lyric_snippet, top_k=3):
 
         # final combined score
         final_score = (0.75 * tfidf_scores[idx]) + (0.25 * overlap_score)
-
         combined_scores.append((idx, final_score))
 
-    # -----------------------------
     # Rank all songs
-    # -----------------------------
     combined_scores.sort(key=lambda x: x[1], reverse=True)
     top_indices = combined_scores[:top_k]
 
