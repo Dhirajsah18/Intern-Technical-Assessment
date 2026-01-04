@@ -35,7 +35,7 @@ A utility app that helps rank weekend getaway destinations based on certain crit
 ```
 ---
 
-## Author
-
+## **Author**
 Dhiraj Kumar Sah
+
 ---
