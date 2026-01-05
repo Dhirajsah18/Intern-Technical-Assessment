@@ -1,4 +1,4 @@
-# 🏏 Cricket World Cup Insights – BI & Data Visualization
+# Cricket World Cup Insights – BI & Data Visualization
 
 
 ## Project Overview
@@ -8,7 +8,7 @@ The dashboard analyzes historical Cricket World Cup data to uncover patterns in 
 
 ---
 
-## 🗂️ Datasets Used
+## Datasets Used
 
 The project uses curated CSV datasets prepared from publicly available cricket statistics for analytical and visualization purposes.
 
@@ -124,6 +124,6 @@ Used for geospatial visualization of India’s performance at major World Cup ve
 
 ---
 
-## 👨‍💻 Author
+## Author
 
-**Ritam Khatua**
+**Dhiraj Kumar Sah**
