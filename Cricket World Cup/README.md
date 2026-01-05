@@ -6,6 +6,10 @@
 **Cricket World Cup Insights** is a Business Intelligence (BI) and Data Visualization project built using **Google Looker Studio**.  
 The dashboard analyzes historical Cricket World Cup data to uncover patterns in **team performance, player statistics, trends over time, and venue-based insights**, with a special focus on the Indian team.
 
+### Live Dashboard (Google Looker Studio):
+
+- https://lookerstudio.google.com/reporting/8d8893d3-03ae-43d2-aa3c-c93df033955e
+
 ---
 
 ## Datasets Used
