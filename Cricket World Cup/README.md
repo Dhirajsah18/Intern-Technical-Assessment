@@ -9,6 +9,8 @@ The dashboard analyzes historical Cricket World Cup data to uncover patterns in 
 ### Live Dashboard (Google Looker Studio):
 
 - https://lookerstudio.google.com/reporting/8d8893d3-03ae-43d2-aa3c-c93df033955e
+- 🔗 **[View Interactive Dashboard]([https://lookerstudio.google.com/your-dashboard-link](https://github.com/Dhirajsah18/Intern-Technical-Assessment/blob/main/Cricket%20World%20Cup/Cricket_World_Cup_Insights.pdf))**
+
 
 ---
 
